@@ -1,6 +1,6 @@
 # BehaviorTree.CPP + ROS2 Integration for TurtleBot4
 
-This repository provides a minimal working example to integrate ROS 2 functionalities with BehaviorTree.CPP, using the [BehaviorTree.ROS2](https://github.com/BehaviorTree/BehaviorTree.ROS2) wrapper. It is used for the TurtleBot4 platform and its simulation environment fo SECORO course.
+This repository provides a minimal working example to integrate ROS 2 functionalities with BehaviorTree.CPP, using the [BehaviorTree.ROS2](https://github.com/BehaviorTree/BehaviorTree.ROS2) wrapper. It is used for the TurtleBot4 platform and its simulation environment for SECORO course.
 
 ## Prerequisites
 
