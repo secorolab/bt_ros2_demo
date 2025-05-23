@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 
   // Load the XML file that defines the Behavior Tree structure
   std::string bt_ros2_demo_dir = ament_index_cpp::get_package_share_directory("bt_ros2_demo");
-  std::string xml_path = bt_ros2_demo_dir + "/xml/tb4_demo.xml";
+  std::string xml_path = bt_ros2_demo_dir + "/config/tb4_demo.xml";
   auto tree = factory.createTreeFromFile(xml_path);
 
   // Tick the tree at a fixed rate

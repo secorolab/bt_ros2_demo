@@ -49,8 +49,8 @@ target_include_directories(bt_task_planner PUBLIC
 install(TARGETS bt_task_planner
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY xml/
-  DESTINATION share/${PROJECT_NAME}/xml)
+install(DIRECTORY config/
+  DESTINATION share/${PROJECT_NAME}/config)
 
 install(DIRECTORY include/
   DESTINATION include)
